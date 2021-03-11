@@ -1,0 +1,59 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    border: 0ch;
+}
+
+.links button{
+    border: none;
+    background: inherit;
+}
+
+.hero{
+    background-color: #141414;   
+    color: #8546BE;
+    background-size: cover;
+    padding-bottom: 5%;
+    font-family: "ubuntu", sans-serif;
+}
+
+.hero h1{
+    font-size: 130px;
+    padding-bottom: 12%;
+}
+
+.hero a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #FDFEFB;
+    padding-left:10%;
+}
+
+#denis{
+    color:#87F65A;
+}
+
+.center-element{
+    padding-top: 7%;
+    padding-left: 10%;
+}
+
+.links button {
+    background-color: #8546BE;
+    border-radius: 2px;
+    padding: 10px 20px 10px 20px; 
+    font-weight: 600;
+    color: #FDFEFB;
+    box-shadow: inset 0 0 0 0 #87F65A;
+    transition: ease-out 0.5s;
+}
+
+.links button:hover{
+    box-shadow: inset 200px 0 0 0 #87F65A;
+    
+}
+
+/** ACABA AQUI O HERO**/
+
+
+
