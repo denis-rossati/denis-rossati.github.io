@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export default function ButtonNext({ nextPage }) {
   return (
     <div>
-      <Link to={`/${nextPage}`}>
+      <Link aria-label="next-page-button" to={`/${nextPage}`}>
         nextpage
       </Link>
     </div>
