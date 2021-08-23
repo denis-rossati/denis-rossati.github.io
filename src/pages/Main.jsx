@@ -4,7 +4,13 @@ import ButtonNext from '../components/ButtonNext';
 export default function main() {
   return (
     <main>
-      <ButtonNext nextPage="otherpage" />
+      <div>
+        <p id="greeting">
+          Hi, I&apos;m
+          <span id="my-name"> Denis</span>
+        </p>
+      </div>
+      <ButtonNext nextPage="about" />
     </main>
   );
 }
