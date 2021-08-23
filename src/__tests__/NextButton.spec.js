@@ -9,7 +9,6 @@ import Main from '../pages/Main';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
-import ButtonNext from '../components/ButtonNext';
 
 describe('NextButton in Main Page', () => {
   it('takes you to the about page', () => {
