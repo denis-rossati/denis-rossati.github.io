@@ -1,5 +1,8 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import { fireEvent } from '@testing-library/react';
+import {
+  fireEvent,
+} from '@testing-library/react';
 import renderWithRouter from '../helper/renderWithRouter';
 
 import Main from '../pages/Main';
@@ -25,9 +28,8 @@ describe('Main.jsx', () => {
 
   it('has the greeting', () => {
     const { getByText } = renderWithRouter(<Main />);
-    const greeting = getByText('Hi, I\'m Denis');
+    const greeting = getByText("Hi, I'm");
     expect(greeting).toBeDefined();
-    expect(greeting).toBeVisible();
-    expect(greeting).toHaveTextContent('Hi, I\'m Denis');
+    expect(greeting.textContent).toBe('Hi, I\'m Denis');
   });
 });
