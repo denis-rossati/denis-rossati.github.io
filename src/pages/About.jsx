@@ -1,10 +1,10 @@
 import React from 'react';
 import ButtonNext from '../components/ButtonNext';
 
-export default function Projects() {
+export default function About() {
   return (
     <div>
-      <ButtonNext nextPage="contact" />
+      <ButtonNext nextPage="projects" />
     </div>
   );
 }
