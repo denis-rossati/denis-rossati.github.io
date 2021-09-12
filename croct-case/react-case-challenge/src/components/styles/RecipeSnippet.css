@@ -1,0 +1,41 @@
+.recipe-snippet {
+  border-radius: 8px;
+  box-shadow: 0 0 8px #c6c6c6;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5%;
+  width: 80%;
+  transition: 0.5s all;
+}
+
+.recipe-snippet:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.recipe-snippet a {
+  display: flex;
+  color: #606060;
+}
+
+.recipe-snippet a img {
+  max-width: 30%;
+  border-radius: 10%;
+}
+
+.recipe-snippet a div {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.recipe-snippet a div p {
+  margin: 5%;
+}
+
+.recipe-snippet a {
+  text-decoration: none;
+}
+
+.recipe-snippet a:visited {
+
+}

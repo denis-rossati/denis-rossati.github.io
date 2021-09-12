@@ -1,0 +1,28 @@
+#interests {
+  width: 80%;
+  margin-top: 30px;
+}
+
+#profile p {
+  text-align: center;
+}
+
+#interests p {
+  text-align: left;
+  margin: 5px 10px 5px 30px;
+}
+
+#interests ul {
+  list-style-type: '- ';
+  margin-left: 30px;
+  padding: 10px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section p a {
+  text-decoration: none;
+  color: #4CD785;
+}
